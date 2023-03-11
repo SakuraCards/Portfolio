@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="script/script.js" defer></script>
+    <script src="script/jquery-3.6.3.js"></script>
+
+    <title>Portfólio</title>
+    
+</head>
+<body>
+
+    <!---------------HEADER---------------->  
+
+    <header>
+        <div class="redeSocial">
+            <a href="https://www.linkedin.com/in/Yasmin135/" target="_blank" id="linkedin">
+                <img src="imagens/LinkedIn_icon.png" alt="LinkedIn icone" height="50" width="50">
+            </a>
+            <a href="https://www.github.com/SakuraCards" target="_blank" id="github">
+                <img src="imagens/Icon_GITHUB.png" alt="Icone github" height="50" width="50">
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=5511959084715" target="_blank" id="whatsapp">
+                <img src="imagens/icone_whats.png" alt="Icone whatsapp" height="50" width="50">
+            </a>
+
+            <div id="anchor"></div>
+
+            <div class="menu-informações">
+                    <button class="Home" id="back-to-top">Home</button>
+
+                   <a href="#Quem-sou">
+                    <button class="Quem_eu_sou" id="Quem-sou">Quem eu sou</button>
+                   </a> 
+
+                    <a href="#portfolio">
+                        <button class="Portfólio">Portfólio</button>
+                    </a>
+       
+                    <a href="#fale-conosco">
+                        <button class="Fale_conosco">Fale conosco</button>
+                    </a>
+             
+            </div>  
+        </div>
+
+
+    </header>
+    <!----------------Quem eu sou---------------->
+    <main>
+    
+
+            <!--SLIDER-->
+
+       <div class="Sliders">
+            <div id="slider">
+                    <img src="imagens/menina.png" alt="menina mexendo no computador" width="500" height="500" >
+                    <img src="imagens/menina_2.png" alt="menina tocando violão" width="500" height="500" >
+                    <img src="imagens/menina_3.png" alt="menina jogando video game" width="500" height="500">
+                    <img src="imagens/astronauta.png" alt="astronauta" width="500" height="500">
+                    <img src="imagens/gato.png" alt="gato" width="500" height="500">
+            </div>
+        </div>
+        <h1>
+            <p class="texto_quem_sou"  id="Quem-sou">Olá!<br/> Sou uma estudante de programação apaixonada por tecnologia tenho o prazer de compartilhar com vocês minhas habilidades em JavaScript e Python.<br/>
+            No ensino médio, eu já sabia que queria trabalhar com programação. Adorava resolver problemas lógicos e descobrir como as coisas funcionavam, e a programação parecia ser a maneira perfeita de combinar essas paixões.<br/>
+            Eu comecei a estudar por conta própria, utilizando recursos online e livros, e rapidamente me apaixonei pelas linguagens de programação JavaScript e Python. E para me aprofundar mais ainda, comecei um curso na universidade Paulista de <br/>Ciência da Computação.</p>   
+        </h1>
+        
+
+     
+        
+
+
+            
+        <!----------------Projetos---------------->
+
+        <h2> Alguns dos meus projetos.</h2>
+
+        <div class="projeto_1" id="portfolio"> 
+            <figure class="figura_projeto_1">
+                <img src="imagens/Pokedex.png" alt="Pokedex" height="200" width="200">
+                <figcaption>
+                        <a href="https://sakuracards.github.io/pokedex/" target="_blank" class="botao_pokedex">Visitar</a>
+                </figcaption>
+            </figure> 
+            <p class="texto_projeto_1">Como um fã de longa data de Pokemon, sempre me fascinou a ideia de ter uma Pokedex digital para me ajudar a aprender mais sobre os diferentes tipos de Pokemon. Com essa ideia em mente, decidi criar minha própria Pokedex em JavaScript, usando uma API para obter informações sobre os Pokemon. Ao
+            longo do desenvolvimento deste projeto, aprendi muito sobre a linguagem JavaScript e como se comunicar com APIs para obter dados.</p>
+        </div>
+    
+        <div class="projeto_2">
+            <figure class="figura_projeto_2">
+                <img src="imagens/FlapyBird.png" alt="FlapyBird" height="200" width="200">
+                <figcaption> 
+                        <a href="https://github.com/SakuraCards/FlapyBird" target="_blank" class="botão_flapyBird">Visitar</a>
+                </figcaption>
+            </figure>            
+            <p class="texto_projeto_2">O objetivo do jogo é manter um pássaro voando o maior tempo possível, enquanto desvia de obstáculos gerados aleatoriamente. <br/>
+            O jogador precisa pressionar a tecla de espaço para fazer o pássaro voar e evitar que ele toque no chão ou nos obstáculos.<br/>
+            Para construir este jogo em Python, utilizei a biblioteca Pygame para criar a interface gráfica e gerenciar os eventos de entrada do usuário. A biblioteca OS foi usada para lidar com as diferentes plataformas de sistema operacional, garantindo que o jogo funcione em diferentes ambientes.<br/>
+            Além disso, utilizei a biblioteca Random para gerar obstáculos aleatórios em diferentes alturas, tornando o jogo mais desafiador e imprevisível. O jogo também possui uma função de pontuação que é atualizada a cada vez que o jogador desvia com sucesso de um obstáculo.<br/>
+        </div>
+    
+        <div class="projeto_3">
+            <figure class="figura_projeto_3">
+                <img src="imagens/cadeado.png" alt="cadeado" height="200" width="200">
+                <figcaption>
+                        <a href="https://sakuracards.github.io/Gerador_de_senhas/" target="_blank" class="botao_cadeado">Visitar</a>
+                </figcaption>
+            </figure>    
+            <p class="texto_projeto_3">Para criar este gerador de senhas em JavaScript, comecei definindo os requisitos para gerar senhas seguras e fortes. Depois de definir os requisitos, comecei a escrever o código em JavaScript, usando a biblioteca Math para gerar números aleatórios e o método charCodeAt para obter o valor Unicode de um caractere.<br/>
+            Várias opções para aumentar a segurança das senhas geradas, incluindo a definição do comprimento mínimo e máximo da senha.<br/>
+            Além disso, adicionei recursos para copiar a senha gerada na área de transferência.<br/>
+            O gerador de senhas em JavaScript é muito fácil de usar e é uma ótima ferramenta para criar senhas seguras para proteger suas informações pessoais e de login.</p>
+        </div>
+    
+        <div class="projeto_4">
+            <figure class="figura_projeto_4">
+                <img src="imagens/jogo_da_velha.png" alt="Imagem jogo da velha" height="400" width="400">
+                <figcaption>
+                        <a href="https://github.com/SakuraCards/Jogo_da_velha_com_IA" target="_blank" class="botao_jogo_da_velha">Visitar</a>
+                </figcaption>
+            </figure>
+            <a href=""></a>
+            <p class="texto_projeto_4">Para começar, comecei criando a lógica básica para o jogo da velha em Python e em seguida comecei a trabalhar na lógica da IA para que ela possa jogar contra o jogador humano. Em seguida, utilizei a biblioteca Pygame para criar a interface gráfica do usuário.<br/>
+            A interface gráfica do usuário inclui uma grade de 3x3 para o jogo da velha, com cada célula sendo representada por um retângulo na tela. Também adicionei botões para que o jogador possa escolher jogar contra a IA ou contra outro jogador humano.<br/>
+            Implementar a IA, usei o algoritmo minimax, que é um algoritmo de busca que determina a melhor jogada possível para a IA. Esse algoritmo considera todas as possibilidades de jogadas futuras e escolhe a melhor jogada com base em um escore de avaliação.</p>
+        </div>
+    
+        <div class="projeto_5">
+            <figure class="figura_projeto_5">
+                <img src="imagens/desenho_checkList.png" alt="checkList" height="200" width="200">
+                <figcaption>
+                        <a href="https://sakuracards.github.io/Check_list/" target="_blank" class="botao_checklist">Visitar</a>
+                </figcaption>
+            </figure>             
+            <p class="texto_projeto_5">Para começar, criei uma interface de usuário simples e intuitiva para que os usuários possam criar e gerenciar suas listas de verificação. Em seguida, criei a lógica em JavaScript para permitir que o usuário adicione, e exclua itens da lista de verificação.<br/>
+            Adicionei recursos como a opção de marcar itens como concluídos e desfazer essa ação, bem como a opção de definir prioridades para cada item da lista.<br/>
+            O resultado final é uma aplicação de check list em JavaScript muito útil e fácil de usar, que ajuda os usuários a se organizarem e a gerenciarem suas tarefas de forma eficiente.</p>
+        </div>
+    
+        <div class="projeto_6">
+            <figure class="figura_projeto_6">
+                <img src="imagens/tetris.png" alt="tetris" height="200" width="200">
+                <figcaption>
+                        <a href="https://github.com/SakuraCards/Tetris" target="_blank" class="botao_tetris">Visitar</a>
+                </figcaption>
+            </figure>
+            <p class="texto_projeto_6">Utilizei a biblioteca Pygame para criar a interface gráfica do usuário, que inclui uma grade na qual as peças são encaixadas.<br/>
+            Adicionei recursos como um contador de pontos para cada linha completa, que é exibido na tela e atualizado à medida que o jogador completa linhas. Também implementei um sistema de velocidade progressiva para o jogo, tornando-o mais difícil à medida que o jogador avança.<br/>
+            Utilizei a detecção de colisão para verificar se a peça colide com as bordas da grade ou com outras peças já encaixadas. Além disso, adicionei animações e efeitos sonoros para tornar o jogo mais interessante e divertido.</p>
+        </div>
+    
+        <div class="projeto_7">
+            <figure class="figura_projeto_7">
+                <img src="imagens/conversor.png" alt="conversor de moedas" height="200" width="200">
+                <figcaption>
+                        <a href="https://sakuracards.github.io/Conversos_de_moedas/" target="_blank" class="botao_conversor-de-moedas">Visitar</a>
+                </figcaption>
+            </figure>          
+            <p class="texto_projeto_7">Para começar, utilizei o HTML e o CSS para criar uma interface simples, mas elegante para o usuário, onde ele pode selecionar a moeda de origem e a moeda de destino. Em seguida, utilizei a API de conversão de moedas para obter as taxas de câmbio atualizadas e atualizar os valores de conversão em tempo real.<br/>
+            Para tornar o projeto mais amigável ao usuário, criei um botão para inverter a conversão (de moeda de origem para moeda de destino e vice-versa). Além disso, adicionei a capacidade de alterar a quantidade de moeda que o usuário deseja converter.<br/>
+            O resultado final é um conversor de moedas preciso e fácil de usar que pode ajudar as pessoas a acompanhar suas finanças pessoais e as taxas de câmbio de várias moedas.</p>
+        </div>
+
+        
+        <h4>Contato</h4>
+
+        <div class="contatos" id="fale-conosco">
+            <a href="https://www.linkedin.com/in/Yasmin135/" target="_blank">
+                <img src="imagens/LinkedIn_icon.png" alt="LinkedIn icone" height="50" width="50"id="linkedin_2">
+                Yasmin135
+             </a>
+             <a href="https://api.whatsapp.com/send?phone=5511959084715" target="_blank" >
+                <img src="imagens/icone_whats.png" alt="Icone whatsapp" height="50" width="50"id="whatsapp_2">
+                (11) 95908-4715  
+            </a>
+            <a href="#####">
+                <img src="imagens/icon-gmail.png" alt="icon-gmail" height="50" width="50" id="gmail"> 
+                ylavor135@gmail.com
+            </a>       
+
+        </div>
+
+
+
+
+       
+    </main>
+</body>
+
+</html>
